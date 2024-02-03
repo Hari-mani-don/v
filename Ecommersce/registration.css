@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #f3f5f7;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   /* form  */
+   form{
+    display: grid;
+    grid-auto-flow: row;
+    background-color: #ebebeb;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px #cccfce;
+    border-left: 1px solid #cccfce;
+   }
+   h1{
+    text-align: center;
+    letter-spacing: 1px;
+    color: #b2b2b2;
+    margin: 10px;
+   }
+   .company{
+    display: flex;
+    align-items: center;
+    border: 1px solid #d8d8d8;
+    border-left: none;
+    border-right: none;
+    margin: 10px 50px;
+    text-align: center;
+   }
+   input[type="radio"]{
+    height: 20px;
+    width: 20px;
+   }
+   label{
+    margin: 10px 15px 10px 10px;
+   }
+   .input-start{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+    text-align: center;
+    
+   }
+   input{ 
+    padding: 10px 10px 10px 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #b2b2b2;
+    margin: 10px;
+    
+   }
+   .gender{
+    border: 1px solid #d8d8d8;
+    display: flex;
+    align-items: center;
+    margin: 10px 50px;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+   }
+   .para{
+    text-align: center;
+    margin: 10px 50px;
+    font-size: 15px;
+   }
+   button{
+    margin: 10px 50px;
+    text-align: center;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #0083d3;
+   }
+   button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #b2b2b2;
+   }
+
+   button ~ span{
+    text-align: center;
+    font-size: 14px;
+    margin: 5px 10px 10px 5px;
+    padding: 10px;
+   }
+
+   /* hoem */
+   .User{
+    position: absolute;
+    left: 39%;
+    padding: 11px;
+    top: 39%;
+    transform: translateY(3% );
+    border-radius: 5px 0px 0px 5px;
+    background-color: #0083d3;
+    color: white;
+    border: none;
+    outline: none;
+   }
+   .Email{
+    position: absolute;
+    left: 39%;
+    padding: 11px;
+    top: 29%;
+    transform: translateY(8% );
+    border-radius: 5px 0px 0px 5px;
+    background-color: #0083d3;
+    color: white;
+    border: none;
+    outline: none;
+   }
+   .Lock{
+    position: absolute;
+    left: 39%;
+    padding: 11px;
+    top: 48%;
+    transform: translateY(13% );
+    border-radius: 5px 0px 0px 5px;
+    background-color: #0083d3;
+    color: white;
+   border: none;
+   outline: none;
+   }
