@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   height: 100vh;
+   width: 100vw;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid black;
+}
+
+     /* forms  */
+     form{
+        display: grid;
+        grid-auto-flow: row;
+        background-color: #ebebeb;
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px 3px #cccfce;
+        border-left: 1px solid #cccfce;
+        gap: 10px;
+       }
+
+ h1{
+    text-align: center;
+    letter-spacing: 1px;
+    color: #b2b2b2;
+    margin: 10px;
+   }
+   input{ 
+    width: 240px;
+    padding: 10px 5px 10px 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #b2b2b2;
+    margin: 10px 50px;
+   }
+.login-input ~a{
+    justify-self: end;
+    margin: 0px 50px 10px 50px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+   /* image  */
+img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+button{
+    border: 1px solid yellow;
+    margin: 10px 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #0083d3;
+   }
+
+   button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #b2b2b2;
+   }
+
+       /* anchore */
+
+button ~ span{
+    /* border: 1px solid black; */
+    font-size: 14px;
+    text-align: center;
+}
+   .facebook-google{
+       margin: 10px 50px;
+       text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    
+   }
+   .facebook-google>p{
+         grid-column: 1 / span 3;
+        font-size: 16px ;
+   }
+   .image{
+    display: flex;
+   justify-content: center;    
+   text-align: center;
+   margin: 10px 50px;
+   gap: 5px ;
+   }
+   .eye{
+    position: absolute;
+    left: 59%;
+    padding: 11px;
+    top: 40%;
+    transform: translateY(-10%);
+    border-radius: 5px 0px 0px 5px;
+    color: #b2b2b2;
+    border: none;
+    outline: none;
+   }
+   .Email{
+    position: absolute;
+    left: 39%;
+    padding: 10px;
+    top: 30%;
+    border-radius: 5px 0px 0px 5px;
+    color: #b2b2b2;
+    border: none;
+    outline: none;
+   }
+   .Lock{
+    position: absolute;
+    left: 39%;
+    padding: 10px;
+    top: 40%;
+    transform: translateY(-10%);
+    border-radius: 5px 0px 0px 5px;
+    color: #b2b2b2;
+   border: none;
+   outline: none;
+   }
